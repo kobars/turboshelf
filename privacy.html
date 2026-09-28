@@ -14,15 +14,26 @@
 <p class="muted">Effective September 2026</p>
 <p>TurboShelf is a Mac app for saving and reusing text, links, images and files.</p>
 <h2>Your content stays on your Mac</h2>
-<p>Everything you save in TurboShelf is stored on your Mac: items, files, text recognized in images and documents, usage history and settings. TurboShelf does not upload it anywhere. TurboShelf has no accounts and no analytics, and it does not track you.</p>
+<p>Everything you save in TurboShelf is stored on your Mac: items, files, text recognized in images and documents, usage history and settings. TurboShelf does not upload it anywhere. TurboShelf has no accounts. It collects no usage analytics, and it does not track you.</p>
 <h2>What TurboShelf saves</h2>
 <p>TurboShelf saves only the items you choose to save. It does not record your clipboard history. To suggest items, it counts on your Mac which items you reuse in which app. That record stays on your Mac.</p>
 <h2>Purchases</h2>
-<p>When you buy or restore TurboShelf Pro, Apple processes the payment. TurboShelf uses RevenueCat, Inc. to confirm purchases. RevenueCat receives the purchase receipt from Apple and an anonymous identifier created for the app. It does not receive your content, name or email. See <a href="https://www.revenuecat.com/privacy">RevenueCat’s privacy policy</a>.</p>
+<p>TurboShelf Pro is sold through the Mac App Store, and Apple processes the payment. TurboShelf uses RevenueCat, Inc. to confirm purchases and keep Pro unlocked. TurboShelf contacts RevenueCat while it runs, for example when it starts and when you buy or restore Pro.</p>
+<p>RevenueCat receives an anonymous identifier that TurboShelf creates, your App Store purchase history for TurboShelf, and basic technical details: app and macOS version, Mac model, language, App Store country and IP address. It does not receive your saved items, your name or your email. TurboShelf turns off RevenueCat’s collection of device identifiers. Nobody uses this data to track you or for advertising.</p>
+<p>RevenueCat keeps these purchase records so that Pro stays unlocked. The developer can see them in RevenueCat, linked only to the anonymous identifier, and uses them for purchase and sales statistics. RevenueCat processes this data for the developer and protects it at least as well as this policy describes. See <a href="https://www.revenuecat.com/privacy">RevenueCat’s privacy policy</a>.</p>
 <h2>Permissions</h2>
-<p>TurboShelf asks for the Accessibility permission to paste an item into the app you were using, after you press Return. It does not use this permission to read or record other apps’ content.</p>
+<p>TurboShelf asks macOS for permission to send keystrokes. macOS lists it under <strong>Privacy &amp; Security → Accessibility</strong> (on macOS 27: <strong>Device Control and Data Access</strong>). TurboShelf sends only Copy (<kbd>⌘ C</kbd>) and Paste (<kbd>⌘ V</kbd>), and only when you ask:</p>
+<ul>
+<li>When you press the Save Copy shortcut, it sends Copy to the app you are using, to save your selection.</li>
+<li>When you press the Link shortcut in Finder, it sends Copy to Finder to get the selected files and folders. Then it restores your clipboard.</li>
+<li>When you press <kbd>Return</kbd> on an item, it sends Paste to the app you opened TurboShelf from.</li>
+</ul>
+<p>TurboShelf does not use this permission to read, record or monitor other apps’ content or your typing.</p>
+<h2>Folder access</h2>
+<p>When you save or link items in your Desktop, Documents or Downloads folder with the Save Copy or Link shortcut, macOS can ask whether TurboShelf can access that folder. The dialog says: “TurboShelf saves a copy of, or a link to, the files and folders you choose with Save Copy or Link.” TurboShelf uses this access only for those items.</p>
 <h2>Deleting your data</h2>
 <p>Removing an item in TurboShelf deletes TurboShelf’s copy. It never deletes your original files. To remove everything, quit TurboShelf, delete the app, and delete its folder <code>~/Library/Containers/com.kobars.turboshelf</code>.</p>
+<p>To ask for your purchase records at RevenueCat to be deleted, write to the contact address below. Include the Apple order ID from your purchase receipt: the identifier is anonymous, and the order ID lets the developer find your record. If you buy or restore Pro again, RevenueCat keeps a new record.</p>
 <h2>Children</h2>
 <p>TurboShelf does not knowingly collect data from anyone.</p>
 <h2>Contact</h2>
